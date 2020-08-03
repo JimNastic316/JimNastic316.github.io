@@ -1,11 +1,9 @@
 //Code cite
 //https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9
 
-
 var slideIndex = 1;
 
 var myTimer;
-
 var slideshowContainer;
 
 window.addEventListener("load",function() {
