@@ -45,5 +45,45 @@
       <li><a href="subpage2.html">Tools</a></li>
       <li><a class="active" href="subpage3.html">Download</a></li>
     </ul>
-</body>
+  </br></br>
+  <!--Create two forms. One should submit via a post, the other via a get
+  they should have identical content-->
+  <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+  <fieldset>
+    <p>Tell us what you think
+    </br>
+    <fieldset>  
+    <legend>Submit via post</legend>
+      <!--Text input with name attribute 'text_input'-->
+       <label>Name:
+         <input type="text" name="text_input"></label>
+       </label>
+      </fieldset>
+  
+    <!--Number input with name attribute "'numerical_input-->
+       <fieldset>
+        <label>Age:
+          <input type="number" name="numerical_input">
+        </label>
+      </fieldset>
+
+  
+    <!--Radio inputs 
+      Should be named 'candy' options Snickers, Skittles, Mentos -->
+        <fieldset>
+          <p>How do you feel about this website?
+          </br>
+          <label>
+            <input type ="radio" name="love" value ="love" />Love it</label>
+          <label>
+            <input type ="radio" name="hate" value ="hate" />Hate it</label>
+
+          </p>
+  
+        </fieldset>
+        <input type="submit" value ="Submit"/>
+  </fieldset>
+  
+
+  </body>
 </html>
