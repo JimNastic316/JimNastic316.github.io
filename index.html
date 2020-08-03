@@ -1,1 +1,117 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birds in My Yard</title>
+  <link rel="stylesheet" type ="text/css" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+
+  <style>
+  
+  /* Navigation bar code cite
+  https://www.w3schools.com/css/css_navbar_horizontal.asp */
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #42a4f5;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    </style>
+
+
+
+
+
+
+  
+</head>
+<body>
+
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="subpage1.html">About</a></li>
+    <li><a href="subpage2.html">Download</a></li>
+    <li><a href="https://google.com">Tools</a></li>
+  </ul>
+  
+
+
+  <h1>Birds in my yard</h1>
+  <h3>Here is an example of some of the birds that can be seen around our home.</h3>
+  
+  <!-- <img src = "https://www.allaboutbirds.org/guide/assets/photo/171452241.jpg">
+  <img src = "https://www.allaboutbirds.org/guide/assets/photo/63744251.jpg">
+  <img src =" https://www.allaboutbirds.org/guide/assets/photo/60384911.jpg"> -->
+
+<!--HTML Code cite
+https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9 !-->
+
+<div class="slideshow-container">
+  <div class="slideshow-inner">
+    <div class="mySlides fade">
+  
+      <img  src="https://www.allaboutbirds.org/guide/assets/photo/171452241-1280px.jpg" style='width: 100%;' alt="eastern towhee"/>
+      <div class="text">Eastern Towhee <i>(Pic from allaboutbirds.org)</i></div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src="https://www.allaboutbirds.org/guide/assets/photo/63744251.jpg" style='width: 100%;' alt="red-winged black bird"/>
+      <div class="text">Red-winged Black Bird <i>(Pic from allaboutbirds.org)</i></div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src="https://www.allaboutbirds.org/guide/assets/photo/60384911.jpg" style='width: 100%;' alt="red-tailed hawk"/>
+      <div class="text">Red-Tailed Hawk <i>(Pic from allaboutbirds.org)</i></div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src="https://www.allaboutbirds.org/guide/assets/photo/124706471-1280px.jpg" style='width: 100%;' alt="american goldfinch"/>
+      <div class="text">American goldfinch <i>(Pic from allaboutbirds.org)</i></div>
+    </div>
+    
+    </div>
+  
+  
+    <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+    <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+  </div>
+  <br/>
+  
+  
+  <div style='text-align: center;'>
+    <span class="dot" onclick='currentSlide(1)'></span>
+    <span class="dot" onclick='currentSlide(2)'></span>
+    <span class="dot" onclick='currentSlide(3)'></span>
+    <span class="dot" onclick='currentSlide(4)'></span>
+  </div>
+  
+  </div>
+
+
+
+
+
+</body>
+</html>
