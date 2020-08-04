@@ -1,3 +1,9 @@
+// James Underwood
+// CS 290
+// Final Project
+// 8/3/2020
+
+
 //Code cite
 //https://medium.com/better-programming/make-a-slideshow-with-automatic-and-manual-controls-using-html-css-and-javascript-b7e9305168f9
 
@@ -10,12 +16,9 @@ window.addEventListener("load",function() {
     showSlides(slideIndex);
     myTimer = setInterval(function(){plusSlides(1)}, 1000);
   
-    //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+    
     slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
-  
-    //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-    //slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
-  
+   
     slideshowContainer.addEventListener('mouseEnter', pause)
     slideshowContainer.addEventListener('mouseLeave', resume)
 })

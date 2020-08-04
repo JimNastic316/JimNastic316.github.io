@@ -1,3 +1,10 @@
+/***********************************************************
+ * James Underwood
+ * CS 290
+ * Final Project
+ * 8/3/2020
+ * *********************************************************/
+
 // In addition to the lecture videos, I also coded along 
 // with a youtube video that was recommended
 // https://www.youtube.com/watch?v=sw6rcXZiRos 
