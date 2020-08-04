@@ -14,13 +14,13 @@ window.addEventListener("load",function() {
     slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
   
     //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-    // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+    //slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
   
-    slideshowContainer.addEventListener('mouseenter', pause)
-    slideshowContainer.addEventListener('mouseleave', resume)
+    slideshowContainer.addEventListener('mouseEnter', pause)
+    slideshowContainer.addEventListener('mouseLeave', resume)
 })
 
-// NEXT AND PREVIOUS CONTROL
+// Next and previous control
 function plusSlides(n){
   clearInterval(myTimer);
   if (n < 0){
@@ -29,7 +29,7 @@ function plusSlides(n){
    showSlides(slideIndex += 1); 
   }
   
-  //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+  //Arrow control for mousEnter
   
   if (n === -1){
     myTimer = setInterval(function(){plusSlides(n + 2)}, 2000);
